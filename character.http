@@ -1,0 +1,3 @@
+//install rest client extension
+
+GET http://localhost:3000/character
