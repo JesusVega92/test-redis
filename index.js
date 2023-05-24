@@ -12,6 +12,7 @@ const app = express();
 
 app.use(resTime())
 
+
 app.get('/character', async (req, res) => {
   try {
     const characters = await client.get('characters')
